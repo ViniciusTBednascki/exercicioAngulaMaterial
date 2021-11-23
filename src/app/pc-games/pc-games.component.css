@@ -1,7 +1,7 @@
 .pc-games {
     min-height: 100%;
     padding-bottom: 60px;
-    background-color: #69f0ae;
+    background: linear-gradient(to bottom, #212121 10%, #69f0ae, #7b1fa2);
 }
 
 .page-title {

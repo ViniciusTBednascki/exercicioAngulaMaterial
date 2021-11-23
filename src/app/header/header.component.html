@@ -1,6 +1,8 @@
 <mat-toolbar color="primary">
     <img class="logo" src="../../assets/logo.png" alt="Page Logo">
     <span>Game List</span>
-    <button mat-button color="accent">PC Games</button>
-    <button mat-button color="accent">Mobile Games</button>
+    <mat-button-toggle-group name="page-navigation" aria-label="Pages">
+        <mat-button-toggle value="PC">PC Games</mat-button-toggle>
+        <mat-button-toggle value="Mobile">Mobile Games</mat-button-toggle>
+    </mat-button-toggle-group>
 </mat-toolbar>
