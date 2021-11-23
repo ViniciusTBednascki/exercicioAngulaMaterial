@@ -4,9 +4,21 @@
         <mat-card-title>
             {{ game.name | uppercase }}
         </mat-card-title>
+        <mat-card-subtitle>
+            {{ game.price | currency:'BRL' }}
+        </mat-card-subtitle>
         <img mat-card-image [src]="game.image_url" alt="Game image">
         <mat-card-content>
-            <p *ngIf="game.description">Descrição: {{ game.description }}</p>
+            <p *ngIf="game.description">{{ game.description }}</p>
+            <mat-chip-list aria-label="Categories">
+                <mat-chip *ngFor="let category of game.categories"
+                    color="primary" selected>
+                    {{ category }}
+                </mat-chip>
+            </mat-chip-list>              
         </mat-card-content>
+        <mat-card-actions align="end">
+          <button mat-button color="accent">AVISAR PROMOÇÃO</button>
+        </mat-card-actions>
     </mat-card>
 </div>

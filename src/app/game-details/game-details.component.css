@@ -20,7 +20,14 @@ mat-card {
 }
 
 mat-card-title {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+mat-card-subtitle {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 mat-card img {
@@ -30,5 +37,14 @@ mat-card img {
 }
 
 mat-card-content {
-    padding: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+mat-card-actions {
+    padding: 0px 20px;
+}
+
+mat-card-actions button{
+    padding-bottom: 10px;
 }
