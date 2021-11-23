@@ -2,7 +2,11 @@
     <img class="logo" src="../../assets/logo.png" alt="Page Logo">
     <span>Game List</span>
     <mat-button-toggle-group name="page-navigation" aria-label="Pages">
-        <mat-button-toggle value="PC">PC Games</mat-button-toggle>
-        <mat-button-toggle value="Mobile">Mobile Games</mat-button-toggle>
+        <mat-button-toggle routerLink="/pc" routerLinkActive="router-link-active">
+            PC Games
+        </mat-button-toggle>
+        <mat-button-toggle routerLink="/mobile" routerLinkActive="router-link-active">
+            Mobile Games
+        </mat-button-toggle>
     </mat-button-toggle-group>
 </mat-toolbar>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { games } from '../games';
+import { pc_games } from '../games';
 
 @Component({
   selector: 'app-pc-games',
@@ -7,7 +7,7 @@ import { games } from '../games';
   styleUrls: ['./pc-games.component.css']
 })
 export class PcGamesComponent implements OnInit {
-  pc_games = games.filter(game => game.platform == "PC");
+  pc_games = pc_games;
   
   constructor() { }
 

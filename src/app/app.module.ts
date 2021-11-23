@@ -11,13 +11,15 @@ import { MatCardModule } from '@angular/material/card';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PcGamesComponent } from './pc-games/pc-games.component';
+import { MobileGamesComponent } from './mobile-games/mobile-games.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PcGamesComponent
+    PcGamesComponent,
+    MobileGamesComponent
   ],
   imports: [
     BrowserModule,

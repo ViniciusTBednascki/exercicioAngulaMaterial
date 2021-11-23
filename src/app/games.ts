@@ -8,11 +8,11 @@ export interface Game {
     platform: "PC" | "Mobile";
 }
 
-export const games = [
+const games = [
     {
         id: 1,
         name: "Death strandig",
-        image_url: "../../assets/death_stranding.jpg",
+        image_url: "https://cdn.cloudflare.steamstatic.com/steam/apps/1190460/header.jpg?t=1636451066",
         price: 239.00,
         description: "Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding.",
         categories: ["Mundo Aberto", "Boa Trama", "Pós-Apocalíptico"],
@@ -20,20 +20,15 @@ export const games = [
     },
     {
         id: 2,
-        name: "Death strandig",
-        image_url: "../../assets/death_stranding.jpg",
-        price: 239.00,
-        description: "Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding.",
-        categories: ["Mundo Aberto", "Boa Trama", "Pós-Apocalíptico"],
-        platform: "PC"
-    },
-    {
-        id: 3,
-        name: "Death strandig",
-        image_url: "../../assets/death_stranding.jpg",
-        price: 239.00,
-        description: "Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding.",
-        categories: ["Mundo Aberto", "Boa Trama", "Pós-Apocalíptico"],
-        platform: "PC"
+        name: "Bloons TD 6",
+        image_url: "https://cdn.cloudflare.steamstatic.com/steam/apps/960090/header.jpg?t=1634303522",
+        price: 28.00,
+        description: "Monte sua defesa perfeita a partir de uma combinação de incríveis torres de macaco, melhorias, heróis e habilidades ativáveis, depois estoure cada Bloon que invadir!",
+        categories: ["Estratégia", "Tower Defense", "Multijogador"],
+        platform: "Mobile"
     }
 ]
+
+export const pc_games = games.filter(game => game.platform == "PC")
+
+export const mobile_games = games.filter(game => game.platform == "Mobile")
