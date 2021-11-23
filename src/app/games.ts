@@ -11,7 +11,7 @@ export interface Game {
 const games = [
     {
         id: 1,
-        name: "Death strandig",
+        name: "Death stranding",
         image_url: "https://cdn.cloudflare.steamstatic.com/steam/apps/1190460/header.jpg?t=1636451066",
         price: 239.00,
         description: "Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding.",

@@ -17,13 +17,10 @@ export class GameDetailsComponent implements OnInit {
     const routeParams = this.route.snapshot.paramMap;
     const platformFromRoute = routeParams.get("platform");
     const idGameFromRoute = Number(routeParams.get("idGame"))
-    console.log(platformFromRoute)
 
     switch (platformFromRoute) {
       case "pc":
-        console.log("foi")
         this.game = pc_games.find(game => game.id === idGameFromRoute)
-        console.log(this.game)
         break;
     
       case "mobile":

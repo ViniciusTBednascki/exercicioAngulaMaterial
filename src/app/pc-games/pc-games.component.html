@@ -1,14 +1,16 @@
 <div class="games">
     <h2 class="page-title">PC Games</h2>
     <mat-card  *ngFor="let game of pc_games">
-        <mat-card-title>
-            {{ game.name | uppercase }}
-        </mat-card-title>
-        <img mat-card-image [src]="game.image_url" alt="Game image">
-        <mat-card-content>
-            <p *ngIf="game.description">Descrição: {{ game.description }}</p>
-        </mat-card-content>
-        <mat-card-actions align="end">
+        <mat-card-title-group>
+            <mat-card-title>
+                {{ game.name | uppercase }}
+            </mat-card-title>
+            <mat-card-subtitle>
+                <p *ngIf="game.description">{{ game.description }}</p>
+            </mat-card-subtitle>
+            <img mat-card-xl-image [src]="game.image_url" alt="Game image">
+        </mat-card-title-group>
+        <mat-card-actions>
           <button mat-button [routerLink]="['/pc', game.id]">DETALHES</button>
           <button mat-button>COMPARTILHAR</button>
         </mat-card-actions>
