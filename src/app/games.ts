@@ -12,7 +12,25 @@ export const games = [
     {
         id: 1,
         name: "Death strandig",
-        image_url: "src/assets/death_stranding.jpg",
+        image_url: "../../assets/death_stranding.jpg",
+        price: 239.00,
+        description: "Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding.",
+        categories: ["Mundo Aberto", "Boa Trama", "Pós-Apocalíptico"],
+        platform: "PC"
+    },
+    {
+        id: 2,
+        name: "Death strandig",
+        image_url: "../../assets/death_stranding.jpg",
+        price: 239.00,
+        description: "Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding.",
+        categories: ["Mundo Aberto", "Boa Trama", "Pós-Apocalíptico"],
+        platform: "PC"
+    },
+    {
+        id: 3,
+        name: "Death strandig",
+        image_url: "../../assets/death_stranding.jpg",
         price: 239.00,
         description: "Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding.",
         categories: ["Mundo Aberto", "Boa Trama", "Pós-Apocalíptico"],
