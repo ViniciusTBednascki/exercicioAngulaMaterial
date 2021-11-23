@@ -1,6 +1,6 @@
-<div class="games">
-    <h2 class="page-title">Mobile Games</h2>
-    <mat-card  *ngFor="let game of mobile_games">
+<div class="details">
+    <h2 class="page-title">Details</h2>
+    <mat-card  *ngIf="game">
         <mat-card-title>
             {{ game.name | uppercase }}
         </mat-card-title>
@@ -8,9 +8,5 @@
         <mat-card-content>
             <p *ngIf="game.description">Descrição: {{ game.description }}</p>
         </mat-card-content>
-        <mat-card-actions align="end">
-          <button mat-button [routerLink]="['/mobile', game.id]">DETALHES</button>
-          <button mat-button>COMPARTILHAR</button>
-        </mat-card-actions>
     </mat-card>
 </div>

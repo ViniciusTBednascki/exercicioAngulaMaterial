@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PcGamesComponent } from './pc-games/pc-games.component';
 import { MobileGamesComponent } from './mobile-games/mobile-games.component';
+import { GameDetailsComponent } from './game-details/game-details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MobileGamesComponent } from './mobile-games/mobile-games.component';
     HeaderComponent,
     FooterComponent,
     PcGamesComponent,
-    MobileGamesComponent
+    MobileGamesComponent,
+    GameDetailsComponent
   ],
   imports: [
     BrowserModule,

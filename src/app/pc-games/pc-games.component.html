@@ -9,7 +9,7 @@
             <p *ngIf="game.description">Descrição: {{ game.description }}</p>
         </mat-card-content>
         <mat-card-actions align="end">
-          <button mat-button>DETALHES</button>
+          <button mat-button [routerLink]="['/pc', game.id]">DETALHES</button>
           <button mat-button>COMPARTILHAR</button>
         </mat-card-actions>
     </mat-card>

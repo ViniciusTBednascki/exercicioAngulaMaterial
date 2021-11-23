@@ -5,7 +5,7 @@ export interface Game {
     price: number;
     description: string;
     categories: string[];
-    platform: "PC" | "Mobile";
+    platform: string;
 }
 
 const games = [
