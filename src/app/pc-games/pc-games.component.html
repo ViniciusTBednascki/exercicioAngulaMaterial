@@ -1,0 +1,10 @@
+<h2 class="page-title">PC Games</h2>
+<div *ngFor="let game of pc_games">
+    <h3>
+        <a [title]="game.name + ' detalhes'">
+            {{ game.name | uppercase }}
+        </a>
+    </h3>
+    <p *ngIf="game.description">Descrição: {{ game.description }}</p>
+    <button (click)="share()">Compartilhar</button>
+</div>
