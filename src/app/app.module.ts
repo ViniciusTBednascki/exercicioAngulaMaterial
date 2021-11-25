@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PcGamesComponent } from './pc-games/pc-games.component';
 import { MobileGamesComponent } from './mobile-games/mobile-games.component';
 import { GameDetailsComponent } from './game-details/game-details.component';
+import { SnackbarAlertComponent } from './snackbar-alert/snackbar-alert.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GameDetailsComponent } from './game-details/game-details.component';
     FooterComponent,
     PcGamesComponent,
     MobileGamesComponent,
-    GameDetailsComponent
+    GameDetailsComponent,
+    SnackbarAlertComponent
   ],
   imports: [
     BrowserModule,

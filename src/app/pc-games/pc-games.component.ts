@@ -14,7 +14,4 @@ export class PcGamesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  share() {
-
-  }
 }

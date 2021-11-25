@@ -18,7 +18,9 @@
             </mat-chip-list>              
         </mat-card-content>
         <mat-card-actions align="end">
-          <button mat-button color="accent">AVISAR PROMOÇÃO</button>
+            <app-snackbar-alert [message]='"Você será avisado quando " + game.name + " estiver em promoção!"'>
+                AVISAR PROMOÇÃO
+            </app-snackbar-alert>
         </mat-card-actions>
     </mat-card>
 </div>

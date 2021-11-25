@@ -11,8 +11,10 @@
             <img mat-card-xl-image [src]="game.small_image_url" alt="Game image">
         </mat-card-title-group>
         <mat-card-actions>
-          <button mat-button color="accent" [routerLink]="['/mobile', game.id]">DETALHES</button>
-          <button mat-button color="accent">COMPARTILHAR</button>
+            <button mat-button color="accent" [routerLink]="['/mobile', game.id]">DETALHES</button>
+            <app-snackbar-alert [message]='"Você compartilhou " + game.name + " com seus amigos!"'>
+                COMPARTILHAR
+            </app-snackbar-alert>
         </mat-card-actions>
     </mat-card>
 </div>
