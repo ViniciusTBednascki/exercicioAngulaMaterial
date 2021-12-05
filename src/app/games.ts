@@ -34,7 +34,7 @@ const games = [
         id: 3,
         name: "Horizon Zero Dawn",
         image_url: "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg?t=1635442187",
-        small_image_url: "https://howlongtobeat.com/games/53247_Horizon_Zero_Dawn_-_Complete_Edition.jpg",
+        small_image_url: "https://primewikis.com/wp-content/uploads/horizon-zero-dawn-feat-1-240x240.jpg",
         price: 200.00,
         description: "Viva a experiência de Aloy em sua busca lendária para desvendar os mistérios de uma Terra do futuro controlada por máquinas. Use ataques táticos devastadores contra suas presas e explore um mundo aberto majestoso neste premiado RPG de aventura e ação! ",
         categories: ["Mundo Aberto", "Aventura", "Um Jogador"],

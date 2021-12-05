@@ -18,4 +18,8 @@ mat-button-toggle {
     background-color: #7b1fa2;
     font-size: 16px;
     color: #69f0ae;
+    display: flex;
+}
+mat-button-toggle mat-icon {
+    font-size: 20px;
 }
